@@ -42,7 +42,7 @@ const handleSubmit = async (event) => {
         method:"POST",
         body: JSON.stringify(data)
     }
-    const result = await fetch("http://localhost:3000/api/createpost", options
+    const result = await fetch("/api/createpost", options
     );
     console.log(result);
     router.replace("/")
