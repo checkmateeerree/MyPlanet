@@ -23,7 +23,7 @@ const SignedInHome = () => {
   const formattedData = data.map(post =>
     (
       
-        <Box backgroundColor="lightgrey" width="535px" px="25px" py="10px" mb="20px">
+        <Box key={post._id} backgroundColor="lightgrey" width="535px" px="25px" py="10px" mb="20px">
           <Heading size="md">{post.title}</Heading>
           <Text py="25px" size="sm">{post.text}</Text>
           <Text size="sm">Post created at {post.timeCreated}</Text>

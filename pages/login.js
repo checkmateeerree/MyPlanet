@@ -82,7 +82,7 @@ const Login = () => {
             <FormControl onChange={handleEmailChange}>
                 <FormLabel htmlFor='email'>Email</FormLabel>
                 <Input id='email' type='email' />
-                <FormHelperText>We'll never share your email.</FormHelperText>
+                <FormHelperText>We&apos;ll never share your email.</FormHelperText>
             </FormControl>
             <FormControl onChange={handlePasswordChange}>
                 <FormLabel htmlFor='password'>Password</FormLabel>
