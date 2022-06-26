@@ -36,7 +36,7 @@ async function createUser(username, email, password) {
   }
 
 
-const register = () => {
+const Register = () => {
   const [username, setUsername] = useState()
   const [email, setEmail] = useState()
   const [password, setPasssword] = useState()
@@ -101,4 +101,4 @@ const handleSubmit = async (event) => {
   )
 }
 
-export default register
+export default Register

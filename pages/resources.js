@@ -2,7 +2,7 @@ import React from 'react'
 import { Center, Button, VStack } from '@chakra-ui/react'
 import Link from 'next/link'
 
-const resources = () => {
+const Resources = () => {
   return (
     <Center height="50vh" mt="50px"> 
         <VStack spacing="25px" px="50px" py="100px" borderWidth="1px" borderRadius="10px">
@@ -30,4 +30,4 @@ const resources = () => {
   )
 }
 
-export default resources
+export default Resources

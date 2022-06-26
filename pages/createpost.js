@@ -19,7 +19,7 @@ import { useState } from 'react'
 import { useRouter } from 'next/router';
 import {useSession, getSession} from "next-auth/react"
 
-const createpost = () => {
+const Createpost = () => {
   const [title, setTitle] = useState()
   const [text, setText] = useState()
   const router = useRouter()
@@ -90,4 +90,4 @@ const { data: session, status } = useSession()
   )
 }
 
-export default createpost
+export default Createpost

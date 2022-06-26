@@ -18,7 +18,7 @@ import { useRouter } from 'next/router';
 import { getSession, signIn } from 'next-auth/react';
 import { useEffect, useState } from 'react';
 
-const login = () => {
+const Login = () => {
   const [isLoading, setIsLoading] = useState(true);
   const router = useRouter();
   const [email, setEmail] = useState("")
@@ -109,4 +109,4 @@ const login = () => {
   )
 }
 
-export default login
+export default Login
